@@ -17,43 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ppo-Nb-9Zk">
-                                <rect key="frame" x="166" y="33" width="269" height="189"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <date key="date" timeIntervalSinceReferenceDate="471555219.05014998">
-                                    <!--2015-12-11 19:33:39 +0000-->
-                                </date>
-                                <date key="minimumDate" timeIntervalSinceReferenceDate="-31575600">
-                                    <!--2000-01-01 13:00:00 +0000-->
-                                </date>
-                                <date key="maximumDate" timeIntervalSinceReferenceDate="504874800">
-                                    <!--2016-12-31 11:00:00 +0000-->
-                                </date>
-                            </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nE4-Qt-wcb">
-                                <rect key="frame" x="211" y="367" width="179" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <size key="titleShadowOffset" width="10" height="9"/>
-                                <state key="normal" title="pink meow">
-                                    <color key="titleColor" red="1" green="0.51992613679999999" blue="0.93699043630000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X29-mh-xFz">
+                                <rect key="frame" x="222" y="285" width="157" height="30"/>
+                                <state key="normal" title="Change the Color"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4j-Yh-ceW">
-                                <rect key="frame" x="179" y="427" width="243" height="57"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="yellow meow">
-                                    <color key="titleColor" red="0.98145923028045401" green="1" blue="0.56356517786719662" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="7.5" minValue="0.0" maxValue="21" translatesAutoresizingMaskIntoConstraints="NO" id="Bpu-NT-NjW">
-                                <rect key="frame" x="164" y="273" width="273" height="31"/>
-                                <color key="tintColor" red="1" green="0.29435096143921946" blue="0.36353995745534406" alpha="1" colorSpace="calibratedRGB"/>
-                            </slider>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L1a-g9-5Q9">
-                                <rect key="frame" x="276" y="513" width="51" height="31"/>
-                                <color key="onTintColor" red="0.34548011576585508" green="0.2012686993050268" blue="0.87910353539999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="thumbTintColor" red="1" green="0.2943509614" blue="0.36353995750000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="0.37871107729999998" green="0.87910353539999997" blue="0.67900353970000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
