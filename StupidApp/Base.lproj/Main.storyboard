@@ -20,6 +20,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X29-mh-xFz">
                                 <rect key="frame" x="222" y="285" width="157" height="30"/>
                                 <state key="normal" title="Change the Color"/>
+                                <connections>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Cj-Jj-RiY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.37871107729999998" green="0.87910353539999997" blue="0.67900353970000005" alpha="1" colorSpace="calibratedRGB"/>
